@@ -1,0 +1,14 @@
+#markdown-text-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+#text-field {
+    background-color: #c0d8d8;
+    border: none;
+    resize: vertical;
+    width: 600px;
+    min-height: 200px;
+    padding: 5px;
+}

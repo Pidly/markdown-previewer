@@ -1,0 +1,26 @@
+#markdown-container {
+    background-color: #87b5b5;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4aa3a3;
+    padding: 8px;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.previewer {
+    color: black;
+    background-color: #c0d8d8;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid black;
+}

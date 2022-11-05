@@ -1,9 +1,14 @@
 import './App.css';
+import MarkdownViewer from './components/MarkdownViewer';
+import MarkdownText from './components/MarkdownText';
 
 function App() {
   return (
     <div className="App">
-      <h1>Markdown previewer</h1>
+      <div className='component-containers'>
+        <MarkdownText/>
+        <MarkdownViewer/>
+      </div>
     </div>
   );
 }
