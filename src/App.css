@@ -1,6 +1,5 @@
 .App {
   background-color: #87b5b5;
-  color: white;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -10,4 +9,5 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  color: black;
 }
